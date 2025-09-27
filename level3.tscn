@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://uboxhq5847a0" path="res://player.gd" id="1_an40m"]
 [ext_resource type="Texture2D" uid="uid://ctllti3fg3ho3" path="res://skele-sprite.png" id="2_mu84n"]
 [ext_resource type="Texture2D" uid="uid://cvwx4uqhbf43k" path="res://biomechamorphs_001.png" id="3_bmsap"]
-[ext_resource type="Script" uid="uid://bredxjaunk5ls" path="res://level3portal.gd" id="4_rqrji"]
+[ext_resource type="Script" path="res://level3portal.gd" id="4_rqrji"]
 [ext_resource type="Texture2D" uid="uid://b3w0kcynel7op" path="res://portalsSpriteSheet.png" id="5_8x87a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
@@ -1417,7 +1417,7 @@ script = ExtResource("1_an40m")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(1, 3)
-zoom = Vector2(2.5, 2.5)
+zoom = Vector2(2, 2)
 
 [node name="SkeleSprite" type="Sprite2D" parent="Player"]
 position = Vector2(0, 3)
