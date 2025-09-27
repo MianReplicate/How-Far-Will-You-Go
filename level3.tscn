@@ -1457,12 +1457,12 @@ region_rect = Rect2(1.25, 1, 30.5, 48)
 anchors_preset = -1
 anchor_left = -0.18229167
 anchor_top = -0.25154322
-anchor_right = -0.18229167
+anchor_right = -0.36458334
 anchor_bottom = -0.25154322
-offset_left = -279.0
-offset_top = -59.0
-offset_right = 195.0
-offset_bottom = 172.0
+offset_left = -91.0
+offset_top = 113.000015
+offset_right = 383.0
+offset_bottom = 344.0
 text = "You have sacrificed teleport.
 you are now pure with no powers!"
 metadata/_edit_use_anchors_ = true
