@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://1da5o54lbdb5"]
+
+[ext_resource type="Texture2D" uid="uid://ctllti3fg3ho3" path="res://skele-sprite.png" id="1_ig7tw"]
+
+[node name="Node" type="Node"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+
+[node name="SkeleSprite" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(0, 3)
+texture = ExtResource("1_ig7tw")
+region_enabled = true
+region_rect = Rect2(-0.1148262, 13.714115, 15.622215, 19.527775)
