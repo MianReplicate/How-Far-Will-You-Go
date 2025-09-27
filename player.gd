@@ -59,6 +59,11 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	
+	if velocity.y >= 1000:
+		position.x = 0
+		position.y = 0
+	
+	
 
 	
 

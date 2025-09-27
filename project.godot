@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="How Far Will You Go"
-run/main_scene="uid://1da5o54lbdb5"
+run/main_scene="uid://dowclms4c663e"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
