@@ -1451,4 +1451,12 @@ texture = ExtResource("5_8x87a")
 region_enabled = true
 region_rect = Rect2(1.25, 1, 30.5, 48)
 
+[node name="Label" type="Label" parent="."]
+offset_left = -149.0
+offset_top = -43.0
+offset_right = 198.0
+offset_bottom = 188.0
+text = "You have sacrificed teleport.. you now have no more abilities!"
+metadata/_edit_use_anchors_ = true
+
 [connection signal="body_entered" from="NextLevelPortal" to="NextLevelPortal" method="_on_body_entered"]
