@@ -29,6 +29,7 @@ func _physics_process(delta: float) -> void:
 		else:
 			position.x-=teleport
 		alreadyTele = true 
+		double_jump = true
 		$Timer.start()
 		
 	 
@@ -48,6 +49,7 @@ func _physics_process(delta: float) -> void:
 		elif double_jump && GameState.DoubleJumpEnabled:
 			velocity.y = JUMP_VELOCITY
 			double_jump = false
+			
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
@@ -59,7 +61,7 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	
-	if velocity.y >= 1000:
+	if velocity.y >= 2000:
 		position.x = 0
 		position.y = 0
 	
