@@ -26,3 +26,4 @@ project/assembly_name="How Far Will You Go"
 [rendering]
 
 renderer/rendering_method="mobile"
+environment/defaults/default_clear_color=Color(0.032248277, 0.16371396, 0.3224721, 1)
