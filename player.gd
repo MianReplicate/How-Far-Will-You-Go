@@ -1,7 +1,7 @@
 extends CharacterBody2D
 const  SPEED = 300.0
 const JUMP_VELOCITY = -400.0
-var teleport = 500
+var teleport = 100
 
 var alreadyTele = false 
 var double_jump = false
@@ -23,6 +23,7 @@ func _physics_process(delta: float) -> void:
 	
 	
 	if Input.is_action_just_pressed("ui_down") and not alreadyTele and canTele:
+		
 		if direction:
 			position.x +=teleport
 		else:
