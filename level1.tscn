@@ -1462,10 +1462,10 @@ region_rect = Rect2(1.25, 1, 30.5, 48)
 [node name="Label" type="Label" parent="."]
 anchors_preset = -1
 anchor_right = 0.057291668
-offset_left = 88.0
-offset_top = -125.0
-offset_right = 435.0
-offset_bottom = 106.0
+offset_left = -76.0
+offset_top = -168.0
+offset_right = 271.0
+offset_bottom = 63.0
 text = "-Press down to teleport/phase through walls 
 -You can double jump
 - you give up your abilities through portals
