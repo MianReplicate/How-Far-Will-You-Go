@@ -1,9 +1,9 @@
-[gd_scene load_steps=10 format=4 uid="uid://c1yltn40v81ay"]
+[gd_scene load_steps=10 format=4 uid="uid://cid3xfx6yk4ay"]
 
 [ext_resource type="Script" uid="uid://uboxhq5847a0" path="res://player.gd" id="1_an40m"]
 [ext_resource type="Texture2D" uid="uid://ctllti3fg3ho3" path="res://skele-sprite.png" id="2_mu84n"]
 [ext_resource type="Texture2D" uid="uid://cvwx4uqhbf43k" path="res://biomechamorphs_001.png" id="3_bmsap"]
-[ext_resource type="Script" path="res://level3portal.gd" id="4_rqrji"]
+[ext_resource type="Script" uid="uid://bredxjaunk5ls" path="res://level3portal.gd" id="4_rqrji"]
 [ext_resource type="Texture2D" uid="uid://b3w0kcynel7op" path="res://portalsSpriteSheet.png" id="5_8x87a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
@@ -1417,6 +1417,7 @@ script = ExtResource("1_an40m")
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(1, 3)
+zoom = Vector2(2.5, 2.5)
 
 [node name="SkeleSprite" type="Sprite2D" parent="Player"]
 position = Vector2(0, 3)
@@ -1454,6 +1455,8 @@ region_rect = Rect2(1.25, 1, 30.5, 48)
 
 [node name="Label" type="Label" parent="."]
 anchors_preset = -1
+anchor_left = -0.18229167
+anchor_top = -0.25154322
 anchor_right = -0.18229167
 anchor_bottom = -0.25154322
 offset_left = -279.0
