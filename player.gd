@@ -44,7 +44,7 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_accept") and canDouble:
 		if is_on_floor():
 			velocity.y = JUMP_VELOCITY
-		elif double_jump:
+		elif double_jump && GameState.DoubleJumpEnabled:
 			velocity.y = JUMP_VELOCITY
 			double_jump = false
 
