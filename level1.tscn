@@ -1461,15 +1461,20 @@ region_rect = Rect2(1.25, 1, 30.5, 48)
 
 [node name="Label" type="Label" parent="."]
 anchors_preset = -1
-anchor_right = 0.057291668
-offset_left = 149.0
-offset_top = -200.0
-offset_right = 496.0
-offset_bottom = 31.0
-text = "-Press down to teleport/phase through walls 
+anchor_right = 0.074652776
+offset_left = 51.0
+offset_top = -159.0
+offset_right = 398.0
+offset_bottom = 72.0
+scale = Vector2(1, 0.8)
+text = "-Press down to teleport/phase through walls (cooldown)
+ 
 -You can double jump
+
 - you give up your abilities through portals
+
 -reach the end portal
+
 Good luck (:"
 metadata/_edit_use_anchors_ = true
 

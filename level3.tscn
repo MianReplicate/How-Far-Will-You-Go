@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://uboxhq5847a0" path="res://player.gd" id="1_an40m"]
 [ext_resource type="Texture2D" uid="uid://ctllti3fg3ho3" path="res://skele-sprite.png" id="2_mu84n"]
 [ext_resource type="Texture2D" uid="uid://cvwx4uqhbf43k" path="res://biomechamorphs_001.png" id="3_bmsap"]
-[ext_resource type="Script" path="res://level3portal.gd" id="4_rqrji"]
+[ext_resource type="Script" uid="uid://bredxjaunk5ls" path="res://level3portal.gd" id="4_rqrji"]
 [ext_resource type="Texture2D" uid="uid://b3w0kcynel7op" path="res://portalsSpriteSheet.png" id="5_8x87a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
@@ -1455,14 +1455,15 @@ region_rect = Rect2(1.25, 1, 30.5, 48)
 
 [node name="Label" type="Label" parent="."]
 anchors_preset = -1
-anchor_left = -0.18229167
+anchor_left = -0.36458334
 anchor_top = -0.25154322
 anchor_right = -0.36458334
 anchor_bottom = -0.25154322
-offset_left = -91.0
-offset_top = 113.000015
-offset_right = 383.0
-offset_bottom = 344.0
+offset_left = 265.0
+offset_top = 97.000015
+offset_right = 739.0
+offset_bottom = 328.0
+scale = Vector2(0.81734216, 1.0545528)
 text = "You have sacrificed teleport.
 you are now pure with no powers!"
 metadata/_edit_use_anchors_ = true
